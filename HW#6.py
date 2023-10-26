@@ -6,12 +6,17 @@
 #Приклади
 #[12, 3, 4, 10] => [10, 12, 3, 4]
 #[1] => [1]
-#[] => []
+#[] => [] print("you can't divide by zero")
 #[12, 3, 4, 10, 8] => [8, 12, 3, 4, 10]
 
-lst1 = [1, 2, 3, 4, 5, 6]
-#emp=[]
-a = lst1.pop()
-print(a)
-lst1.insert(0, a)
-print(lst1)
+lst1 = [1, 2, 3]
+x = len(lst1)
+if x == 0:
+    print(lst1)
+else:
+    a = lst1.pop()
+    lst1.insert(0, a)
+    print(lst1)
+
+
+
