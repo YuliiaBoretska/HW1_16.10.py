@@ -17,9 +17,7 @@ if d == "*":
 if d == "/" and bool(x2):
     res = x1 / x2
     print("there is a result:", res)
-
-    if d == "/" and not bool(x2):
+if d == "/" and not bool(x2):
      print("you can not divide by zero")
-
 else:
     print("there is no such action")
