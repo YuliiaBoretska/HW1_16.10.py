@@ -14,43 +14,12 @@
 
 first_list = [1, 2, 3, 4, 5, 6, 7]
 empty_lst = []
-x=len(first_list)
+x = len(first_list)
 if x % 2 == 0:
- empty_lst = [first_list[:x//2], first_list[x//2:]]
+    empty_lst = [first_list[:x//2], first_list[x//2:]]
 else:
- empty_lst = [first_list[:x//2+1],first_list[x//2+1:]]
+    empty_lst = [first_list[:x//2+1], first_list[x//2+1:]]
 
 print(first_list)
 print(empty_lst)
 
-#
-#print(type(lst))
-#list2 = list()
-#print(type(list2))
-
-#lst3 = [1, 2, 3, 4, 5, 6]
-#print(lst3)
-
-#lst1 = [1, 2, 3, 4, 5, 6, 7]
-#rlist = lst4[0:3]
-#if len(my_list
-
-#lst2 = []
-#my_lst = lst1 / lst2
-#print(my_lst)
-#x=len(lst1)
-#print(x)
-#if x % 2 ==0:
-#  lst1[x/2]
-#print(lst1)
-
-#print(lst4)
-#lst5 = list('hallo')
-#print(lst5)
-
-#x = input('Type:')
-#lst6 = list(x)
-#print(lst6)
-
-#lst_lst = [[1, 2, 545], [4, 5, 1223311]]
-#print(len(lst_lst))

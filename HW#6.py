@@ -9,7 +9,7 @@
 #[] => [] print("you can't divide by zero")
 #[12, 3, 4, 10, 8] => [8, 12, 3, 4, 10]
 
-lst1 = [1, 2, 3]
+lst1 = [1, 2, 3, 4, 9]
 x = len(lst1)
 if x == 0:
     print(lst1)
