@@ -9,10 +9,9 @@
 # 'i like python community!' -> #ILikePythonCommunity
 # 'Should, I. subscribe? Yes!' -> #ShouldISubscribeYes
 import string
-my_string = 'Should, I. subscribe? Yes!'
+#my_string = 'Should, I. subscribe? Yes!'
+my_string = str(input('Enter:'' '))
 my_string = my_string.title()
-#lst = list(my_string)
-#print(lst)
 for i in string.punctuation:
     if i in my_string:
         my_string = my_string.replace(i, '')
